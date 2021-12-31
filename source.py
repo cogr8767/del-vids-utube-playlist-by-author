@@ -33,7 +33,6 @@ while nextPageToken:
 
 
 for video in playlistItems: 
-    print(video['id'])   
     if video['snippet']['videoOwnerChannelTitle'] == "Mark165":
         print("Deleting Video by: " + video['snippet']['videoOwnerChannelTitle'])
         service.playlistItems().delete(id=video['id']).execute()
