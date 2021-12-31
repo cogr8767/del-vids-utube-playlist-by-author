@@ -1,5 +1,4 @@
 from Google import Create_Service
-# import pandas as pd
 
 CLIENT_SECRET_FILE  =  'client_secret_7.json'
 API_NAME  =  'youtube'
